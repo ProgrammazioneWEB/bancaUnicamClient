@@ -45,7 +45,7 @@ var userMovements = null;
 //user alerts
 var userAlerts = null;
 //link heroku
-var serverheroku = "https://bancaunicamserver.herokuapp.com/";
+var serverheroku = "https://bancaunicamserver.herokuapp.com";
 //user home controller
 /**
  * Dato che questo è il primo controller utilizzato richiamerò tutte le funzioni del server per salvare
