@@ -1,0 +1,15 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+div.centerTitle{
+    text-align: center;
+    float: center;
+    color: #3E50F3;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 30;
+    font-weight: bold;
+}

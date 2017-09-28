@@ -1,0 +1,91 @@
+@keyframes photoGalleryAnimation {
+    0%   {opacity: 0.1;}
+    25%  {opacity: 0.25;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.75;}
+    100% {opacity: 1.0;}
+}
+@keyframes homeImage{
+     0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+@keyframes homeImageReverse{
+    0% {
+        transform: translateX(+100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+.blueBackground{
+    background-color: #3E50F3;
+}
+.whiteBackground{
+    background-color: white;
+}
+.whiteFont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+img.iconAbout{
+    max-height: 20%;
+    max-width: 20%;
+}
+.blueFont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3E50F3;
+    font-size: 20;
+    font-weight: bold;
+}
+
+div.photo{
+    animation-name: photoGalleryAnimation;
+    animation-duration: 3s;
+}
+
+div.homePageImage{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    animation: 1s ease-out 0s 1 homeImage;
+}
+div.homePageTitle{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    color: #3E50F3;
+    animation: 1s ease-out 0s 1 homeImageReverse;
+}
+div.homePageDiv{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: #3E50F3;
+}
+span.story{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18;
+}
+table.center{
+text-align: center;
+}
+table.photo
+{
+    animation-name: photoGalleryAnimation;
+    animation-duration: 2s;
+}
+div.aboutOne{
+    animation: 1s ease-out 0s 1 homeImage;
+}
+div.aboutOneReverse{
+    animation: 1s ease-out 0s 1 homeImageReverse;
+}

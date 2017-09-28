@@ -1,0 +1,251 @@
+body {
+    height:100%;
+    width:100%;
+}
+body.whiteBackground{
+background-color: #3E50F3;
+}
+
+adminTextArea{
+   width: 90%;
+}
+
+label.adminTitle{
+    font-size: 20;
+    background-color: #3E50F3;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+.fillSpace{
+    min-width: 100%;
+    max-height: 100%;
+}
+
+img.iconUnicam{
+width:28%;
+height:45%; 
+float:left;
+min-width: 10%;
+min-height: 10%;
+}
+
+img.leftArrow{
+    width:80%;
+    height:80%; 
+    float:center;
+    min-width: 15%;
+    min-height: 15%;
+}
+
+img.userImage{
+    text-align: center;
+    float:center;
+    min-width: 35%;
+    min-height: 20%;
+    max-height: 40%;
+    max-width: 40%;
+}
+img.logoImage{
+    text-align: center;
+    float:center;
+    min-width: 45%;
+    min-height: 20%;
+    max-height: 40%;
+    max-width: 60%;
+}
+
+img.buttonImage{
+    min-width: 20%;
+    min-height: 20%;
+   
+}
+
+span.username{
+font-family: 'Times New Roman', Times, serif;
+font-size: 25;
+font-weight:bold;
+color:  black;
+}
+label.oldData{
+    float:left; 
+    color:black;
+}
+
+label.hint{
+    font-family: 'Times New Roman', Times, serif;    
+    color:#3E50F3;
+    font-weight: bold;
+    float: left;
+    font-size: 20;
+    max-height: 50%;
+    max-width: 30%;
+    min-height: 10%;
+    min-width: 10%;
+   
+}
+.statistics{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18;
+    float: center;
+    font-weight:bold;
+    color:  black;
+    text-align: center;
+}
+
+.statisticsTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18;
+    float: center;
+    font-weight:bold;
+    color:  #3E50F3;
+    text-align: center;
+}
+
+
+span.title{
+text-align: center;
+color: #3E50F3;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18;
+font-weight:bold;
+}
+
+span.Average{
+    text-align: center;    
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+
+
+div.userFunction{
+    width:100%; 
+    height:30%;
+    background-color: white;
+    float: center;
+    border: solid;
+    border-style: ridge;    
+    border-color: #3E50F3;
+    align-items: center;
+    text-align: center;
+}
+
+ul.leftAlign{
+    float: left;
+    width: 19%;
+    height: 93%;      
+}
+
+ul.rightAlign{
+    float: right;
+    width: 19%;
+    height: 93%;
+          
+}
+
+ul.limitSpace{
+    min-width: 20%;
+    max-width: 100%;
+    min-height: 20%;
+    max-height: 100%;
+  
+}
+
+div.userStatistics{
+    position: static;
+    top: 40%;
+    left: 25%;
+    width: auto;
+    height:100%;
+    background-color: white; 
+    float: center ;
+    border-style: ridge;   
+    color:  #3E50F3	;
+    border-color: #3E50F3;
+    overflow: auto;    
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+div.Graph{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+div.formElementCenter{
+    width:100%; 
+    padding-left:5%;    
+    padding-right:1%;    
+    text-align:center; 
+}
+div.graphEntrance{
+    width: 30%;
+    height: 40%;
+}
+
+label.username{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+button.userArea{
+    background-color:white;	
+    float: center;
+    width: 100%;
+    height: 50%;
+    min-height: 10%;
+    min-width: 20%;
+    color: black;
+    font-size-adjust: 0.58;
+}
+
+button.leftArrow{
+float: left;
+width: 15%;
+height: 20%;
+}
+
+div.noAlerts{
+    padding-top: 2%;
+    background-color: #3E50F3;    
+    color:gray;
+    font-weight: bold;
+    text-align: center;
+    font: 22;
+    float: center;
+}
+div.alertsArea{
+    text-align: center;
+    border-radius: 5%;
+}
+.adminAlertTitle{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20;
+}
+.adminAlertDescription{
+    color: black;
+    text-align: center;
+    font-size: 18;
+}
+.adminAlertDate{
+    color: green;
+    text-align: center;
+    font-size: 18;
+}
+
+table.center{
+    text-align: center;
+    float: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
