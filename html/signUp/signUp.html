@@ -62,7 +62,7 @@
             <span ng-show="form.pin.$invalid" class="leftAlignError"> {{pinErrors.error}} </span>
         </div>
         <!--Inserisci immagine di profilo-->
-        <div class="form-group" ng-disabled="true">
+        <div class="form-group" ng-hide="true">
             <label for="picture">Inserisci un immagine del profilo (non obbligatorio) </label>
             <button id="btnpic" type="button" class="btn" data-toggle="modal" data-target="#imgModal">{{btnIMG}}</button>
         </div>
