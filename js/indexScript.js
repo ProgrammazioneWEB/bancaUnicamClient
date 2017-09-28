@@ -58,6 +58,7 @@ indexApp.controller('homeController', function ($scope, $localStorage) {
     BooleanAdmin = $localStorage.BooleanAdmin;
   }
   $scope.message = "Home Page";
+  $scope.unicampath = "./CSS/images/Logos/unicam.png";
   /**
  * DEFINE FUNCTION TO CONTROLL IF USER HAS LOGGED IN
  * return true if user logged in and false if not
